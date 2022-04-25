@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xu988.github.io</id>
+    <id>https://eriwith.github.io</id>
     <title>Gridea</title>
-    <updated>2022-04-25T08:54:22.219Z</updated>
+    <updated>2022-04-25T08:58:54.117Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://xu988.github.io"/>
-    <link rel="self" href="https://xu988.github.io/atom.xml"/>
+    <link rel="alternate" href="https://eriwith.github.io"/>
+    <link rel="self" href="https://eriwith.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://xu988.github.io/images/avatar.png</logo>
-    <icon>https://xu988.github.io/favicon.ico</icon>
+    <logo>https://eriwith.github.io/images/avatar.png</logo>
+    <icon>https://eriwith.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://xu988.github.io/post/hello-gridea/</id>
-        <link href="https://xu988.github.io/post/hello-gridea/">
+        <id>https://eriwith.github.io/post/hello-gridea/</id>
+        <link href="https://eriwith.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
