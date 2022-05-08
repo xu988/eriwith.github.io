@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Hello Gridea | Eric&#39;s Blog</title>
+<title>组会 | Eric&#39;s Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -24,14 +24,17 @@
 
 
 
-    <meta name="description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdow..." />
-    <meta name="keywords" content="Gridea" />
+    <meta name="description" content="Code snippet
+
+prop 按两次tab  快速属性
+propfull 按两次tab  快速完整属性
+for 按两次tab
+propdp 按两次tab  快速依赖属性
+class 按两次tab  快速类
+
+MVVM
+Model -..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -102,44 +105,76 @@ Gridea 主页
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">Hello Gridea</h2>
-            <div class="post-date">2022-04-25</div>
-            
-              <div class="feature-container" style="background-image: url('https://www.xukai.cc/post-images/hello-gridea.png')">
-              </div>
+            <h2 class="post-title">组会</h2>
+            <div class="post-date">2022-05-08</div>
             
             <div class="post-content" v-pre>
-              <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+              <h1 id="code-snippet">Code snippet</h1>
+<ol>
+<li>prop 按两次tab  快速属性</li>
+<li>propfull 按两次tab  快速完整属性</li>
+<li>for 按两次tab</li>
+<li>propdp 按两次tab  快速依赖属性</li>
+<li>class 按两次tab  快速类</li>
+</ol>
+<h1 id="mvvm">MVVM</h1>
+<h2 id="model-view-viewmodel">Model - View - ViewModel</h2>
+<h2 id="为什么使用mvvm">为什么使用MVVM</h2>
+<ul>
+<li>团队 ：
+<ul>
+<li>确定一个框架 便于维护（其他框架也一样）</li>
+<li>新人无需很大的成本去了解原来的逻辑</li>
+</ul>
+</li>
+<li>架构 ：
+<ul>
+<li>耦合度低（view不包含业务逻辑）</li>
+<li>稳定</li>
+</ul>
+</li>
+<li>代码 ：
+<ul>
+<li>可读性强（只要遵循了mvvm框架开发，找每一个代码的位置就会很方便）</li>
+<li>可测性强（业务逻辑和界面逻辑可以分别测试）</li>
+<li>可替换（更新新的实现可以不影响其他部分）</li>
+</ul>
+</li>
+</ul>
+<h2 id="什么是model">什么是Model</h2>
+<blockquote>
+<p>wpf是模型驱动开发</p>
+<p>数据是核心  ui由内部数据来驱动  ui将操作和数据传回内部的数据</p>
+</blockquote>
+<ul>
+<li>Model是<strong>现实</strong>世界的抽象结果</li>
+</ul>
+<h2 id="什么是view和viewmodel">什么是View和ViewModel</h2>
+<ul>
+<li>View = UI （View是对Model的展现 客户观察数据的方式）</li>
+<li>ViewModel 是为了响应View的操作 （Model for View，是对View的一种抽象）</li>
+<li>Model 与 View 的沟通：
+<ul>
+<li>数据传递  通过  数据属性</li>
+<li>操作传递  通过  命令属性</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>橘子例子 换皮</p>
+</blockquote>
 
             </div>
             
-              <div class="tag-container">
-                
-                  <a href="https://www.xukai.cc/tag/rcxB__ByH/" class="tag">
-                    Gridea
-                  </a>
-                
-              </div>
             
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://www.xukai.cc/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
             
 
             
